@@ -299,7 +299,6 @@ end
 for i, v in pairs(Descendants) do
     CheckIfBad(v)
 end
-Notify("FPS Booster Loaded!")
 
 game.DescendantAdded:Connect(function(value)
     wait(LoadedWait or 1)
